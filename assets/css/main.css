@@ -67,6 +67,11 @@ body {
     padding-right: auto;
 }
 
+article{
+    min-height: 76vh;
+}
+
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -95,6 +100,10 @@ body {
      #botonDosHero{
         margin-left: 3vw;
      }
+
+     article{
+        min-height: 150vh;
+    }
     
 
   }
@@ -127,5 +136,8 @@ body {
         margin-right: 15vw;
      }
     
+     article{
+        min-height: 150vh;
+    }
 
   }
