@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
 body {
-    padding-top: 2.5vh;
+    padding-top: 4vh;
     font-family: 'Raleway', sans-serif;
   }
 
@@ -36,6 +36,10 @@ body {
     height: 90vh;
 }
 
+.botonesNoMontarse{
+   margin-right: 4vw;
+}
+
 #heroSection{
     width: 48vw;
     margin-left: 38vw;
@@ -65,7 +69,7 @@ body {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .personalizado {
       width: 29vw;
     }
@@ -79,6 +83,49 @@ body {
         padding-bottom: auto;
         
     }
+
+    .botonesNoMontarse{
+        margin-right: 10vw;
+     }
+    
+     #botonUnoHero {
+        margin-right: 1vw;
+     }
+
+     #botonDosHero{
+        margin-left: 3vw;
+     }
+    
+
+  }
+
+
+  @media only screen and (max-width: 521px) {
+    .personalizado {
+      width: 29vw;
+    }
+
+    #heroSection{
+        width: 48vw;
+        margin-left: 38vw;
+        margin-right: auto;
+        height:38vh;
+        padding-top: 3vh;
+        padding-bottom: auto;
+        
+    }
+
+    .botonesNoMontarse{
+        margin-right: 10vw;
+     }
+    
+     #botonUnoHero {
+        margin-right: 5vw;
+     }
+
+     #botonDosHero{
+        margin-right: 15vw;
+     }
     
 
   }
