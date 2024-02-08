@@ -71,6 +71,9 @@ article{
     min-height: 76vh;
 }
 
+form{
+    min-height: 76vh;
+}
 
 
 
@@ -102,6 +105,14 @@ article{
      }
 
      article{
+        min-height: 150vh;
+    }
+
+    .formTamaños{
+        min-height: 92vh;
+    }
+
+    form{
         min-height: 150vh;
     }
     
@@ -139,5 +150,12 @@ article{
      article{
         min-height: 150vh;
     }
+
+    form{
+        min-height: 150vh;
+        
+    }
+
+  
 
   }
