@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+body {
+    padding-top: 2.5vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+.mIzquierdo {
+    margin-left: 13.3vw;
+}
+
+.mDerecho {
+    margin-right: 13.9vw;
+}
+
+
+.personalizado{
+    width: 13vw;
+
+}
+
+.heroBackground{
+
+    min-height: 90vh;
+    background-image: url(../img/bg-hero.jpg) ;
+    background-size: 100vw;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vh-90{
+    padding: 0;
+    margin: 0;
+    height: 90vh;
+}
+
+#heroSection{
+    width: 48vw;
+    margin-left: 38vw;
+    margin-right: auto;
+    height:38vh;
+    padding-top: 21vh;
+    padding-bottom: auto;
+    
+}
+
+.tamañoImagen{
+    height:33vh;
+    width:30vw;
+}
+
+#terceraTarjeta{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+#posicionamientoTarjetas{
+    width: 96vw;
+    padding-left: 10vw;
+    padding-right: auto;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .personalizado {
+      width: 29vw;
+    }
+
+    #heroSection{
+        width: 48vw;
+        margin-left: 38vw;
+        margin-right: auto;
+        height:38vh;
+        padding-top: 3vh;
+        padding-bottom: auto;
+        
+    }
+    
+
+  }
